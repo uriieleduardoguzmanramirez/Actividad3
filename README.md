@@ -127,7 +127,5 @@ El modal y las notificaciones toast reaccionan a acciones del usuario y pueden u
 
 
 ## LINK DE VIDEO 
-https://drive.google.com/drive/folders/1LIqNQclsEc5FNklxMe_tca6WSQenGlxE?usp=drive_link
-
-
+https://drive.google.com/file/d/1DHRiD9RZmPGAWZfo42w0ojVd57wpgL03/view?usp=sharing
 
