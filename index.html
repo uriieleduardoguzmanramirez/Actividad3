@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 3 - Componentes Visuales con JS</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body> 
+
+    <main class="contenedor">
+
+        <section class="presentacion">
+            <h1>Panel de Avisos Académicos</h1>
+
+
+        </section>
+
+        <section class="tarjeta">
+            <div class="encabezado-tarjeta">
+                <img src="img/aviso.jpg" alt="Icono de aviso académico" class="icono-tarjeta">
+                <h2>Avisos importantes</h2>
+            </div>
+
+            <p>
+                se Muestran avisos académicos mediante ventanas modales. 
+            </p>
+
+            <button id="btnAvisoInscripcion">Aviso de inscripción</button>
+            <button id="btnRequisitos">Ver requisitos</button>
+        </section>
+
+        <section class="tarjeta">
+            <div class="encabezado-tarjeta">
+                <img src="img/notificacion.png" alt="Icono de notificación" class="icono-tarjeta">
+                <h2>Notificaciones del sistema</h2>
+            </div>
+
+            <p>
+                Las notificaciones tipo toast sirven para informar al usuario
+            </p>
+
+            <div class="grupo-botones">
+                <button id="btnSolicitudEnviada">Solicitud enviada</button>
+                <button id="btnErrorDocumentos">Error en documentos</button>
+                <button id="btnPendiente">Trámite pendiente</button>
+                <button id="btnInfoHorario">Horario de atención</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/miniui.js"></script>
+     <script src="js/index.js"></script>
+
+ 
+
+</body>
+</html>
